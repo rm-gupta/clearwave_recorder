@@ -1,1 +1,1 @@
-# voice_record_noise_reduction
+The Clearwave Recorder has been created using C++, Port-Audio, and the .NET framework to enable users to record their audio, and to clear out any background noises to clear the audio output. They can then download the corrected and noise-reduced audio in the .wav format. 
