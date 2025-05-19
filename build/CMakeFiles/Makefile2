@@ -85,12 +85,12 @@ clean: CMakeFiles/clearwave_recorder.dir/clean
 CMakeFiles/clearwave_recorder.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clearwave_recorder.dir/build.make CMakeFiles/clearwave_recorder.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clearwave_recorder.dir/build.make CMakeFiles/clearwave_recorder.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ritugupta/clearwave_recorder/build/CMakeFiles --progress-num=1,2 "Built target clearwave_recorder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ritugupta/clearwave_recorder/build/CMakeFiles --progress-num=1,2,3 "Built target clearwave_recorder"
 .PHONY : CMakeFiles/clearwave_recorder.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/clearwave_recorder.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ritugupta/clearwave_recorder/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ritugupta/clearwave_recorder/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/clearwave_recorder.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ritugupta/clearwave_recorder/build/CMakeFiles 0
 .PHONY : CMakeFiles/clearwave_recorder.dir/rule
@@ -102,7 +102,7 @@ clearwave_recorder: CMakeFiles/clearwave_recorder.dir/rule
 # codegen rule for target.
 CMakeFiles/clearwave_recorder.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clearwave_recorder.dir/build.make CMakeFiles/clearwave_recorder.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ritugupta/clearwave_recorder/build/CMakeFiles --progress-num=1,2 "Finished codegen for target clearwave_recorder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ritugupta/clearwave_recorder/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target clearwave_recorder"
 .PHONY : CMakeFiles/clearwave_recorder.dir/codegen
 
 # clean rule for target.

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/ritugupta/clearwave_recorder/audio_recorder.cpp" "CMakeFiles/clearwave_recorder.dir/audio_recorder.cpp.o" "gcc" "CMakeFiles/clearwave_recorder.dir/audio_recorder.cpp.o.d"
   "/Users/ritugupta/clearwave_recorder/main.cpp" "CMakeFiles/clearwave_recorder.dir/main.cpp.o" "gcc" "CMakeFiles/clearwave_recorder.dir/main.cpp.o.d"
   )
 

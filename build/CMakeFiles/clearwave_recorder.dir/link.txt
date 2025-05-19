@@ -1,1 +1,1 @@
-/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/clearwave_recorder.dir/main.cpp.o -o clearwave_recorder
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/clearwave_recorder.dir/main.cpp.o CMakeFiles/clearwave_recorder.dir/audio_recorder.cpp.o -o clearwave_recorder   -L/opt/homebrew/lib  -L/opt/homebrew/opt/portaudio/lib  -Wl,-rpath,/opt/homebrew/lib -Wl,-rpath,/opt/homebrew/opt/portaudio/lib /opt/homebrew/lib/libportaudio.dylib

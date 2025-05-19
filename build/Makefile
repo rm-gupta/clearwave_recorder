@@ -136,6 +136,30 @@ clearwave_recorder/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clearwave_recorder.dir/build.make CMakeFiles/clearwave_recorder.dir/build
 .PHONY : clearwave_recorder/fast
 
+audio_recorder.o: audio_recorder.cpp.o
+.PHONY : audio_recorder.o
+
+# target to build an object file
+audio_recorder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clearwave_recorder.dir/build.make CMakeFiles/clearwave_recorder.dir/audio_recorder.cpp.o
+.PHONY : audio_recorder.cpp.o
+
+audio_recorder.i: audio_recorder.cpp.i
+.PHONY : audio_recorder.i
+
+# target to preprocess a source file
+audio_recorder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clearwave_recorder.dir/build.make CMakeFiles/clearwave_recorder.dir/audio_recorder.cpp.i
+.PHONY : audio_recorder.cpp.i
+
+audio_recorder.s: audio_recorder.cpp.s
+.PHONY : audio_recorder.s
+
+# target to generate assembly for a file
+audio_recorder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clearwave_recorder.dir/build.make CMakeFiles/clearwave_recorder.dir/audio_recorder.cpp.s
+.PHONY : audio_recorder.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -170,6 +194,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... clearwave_recorder"
+	@echo "... audio_recorder.o"
+	@echo "... audio_recorder.i"
+	@echo "... audio_recorder.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

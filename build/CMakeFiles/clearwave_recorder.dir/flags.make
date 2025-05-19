@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/opt/homebrew/Cellar/portaudio/19.7.0/include
+CXX_INCLUDES = -I/opt/homebrew/include -I/opt/homebrew/opt/portaudio/include
 
 CXX_FLAGSarm64 = -std=gnu++14 -arch arm64
 
