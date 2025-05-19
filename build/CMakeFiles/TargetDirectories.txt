@@ -1,0 +1,3 @@
+/Users/ritugupta/clearwave_recorder/build/CMakeFiles/clearwave_recorder.dir
+/Users/ritugupta/clearwave_recorder/build/CMakeFiles/edit_cache.dir
+/Users/ritugupta/clearwave_recorder/build/CMakeFiles/rebuild_cache.dir
